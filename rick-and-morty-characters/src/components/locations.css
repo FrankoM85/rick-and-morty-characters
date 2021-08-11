@@ -1,0 +1,24 @@
+.locations {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.location-card {
+  width: 30%;
+  min-width: 260px;
+  height: auto;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  /*background-color: rgb(64, 181, 75);*/
+  background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url("../img/portal.png");
+  background-size: cover;
+  overflow: hidden;
+}
+
+.location-type {
+  text-align: center;
+}

@@ -1,0 +1,134 @@
+*,
+*:before,
+*:after,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: 'Inter', sans-serif;
+  min-width: 260px;
+}
+
+.App .App-logo {
+  width: 90%;
+  height: auto;
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+
+}
+
+.intro{
+  width: 80%;
+  max-width: 700px;
+  position: relative;
+  margin: 45px auto;
+  font-size: 15px;
+  color: white;
+}
+.btn-container {
+  margin: 20px auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  min-width: 170px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid white;
+  font-family: 'Inter', sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.btn:hover{
+  color: black;
+  background-color: #ffcc00;
+  border: none;
+
+}
+.back-btn {
+  position: absolute;
+  margin: 10px;
+  padding: 10px;
+  width: 50px;
+  border-radius: 8px;
+  border: 1px solid white;
+  font-size: 24px;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.back-btn:hover {
+  color: black;
+  background-color: #ffcc00;
+  border: 1px solid black;
+}
+
+.hide {
+  display: none;
+}
+
+.moreInfo {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 90%;
+  margin: 5px auto 0 auto;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.page-btn-container {
+  margin: 20px auto 30px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-btn {
+  width: 50px;
+  height: auto;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.page-btn:hover {
+  background-color: #ffcc00;
+}
+
+.paginPage {
+  color: white;
+  width: 60px;
+  height: auto;
+  padding: 10px;
+}
+
+.onPage {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+}
+
+.onPage:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+}
